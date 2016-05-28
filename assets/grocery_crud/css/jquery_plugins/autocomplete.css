@@ -1,0 +1,33 @@
+.autocomplete-suggestions {
+     cursor: default;
+     overflow: auto; 
+    background: #fff;
+    border: 1px solid #aaa;
+    border-top: 0;
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,.15);
+    -o-box-shadow: 0 4px 5px rgba(0,0,0,.15);
+    box-shadow: 0 4px 5px rgba(0,0,0,.15);
+    z-index: 999;
+}
+
+.autocomplete-suggestion { 
+line-height: 15px;
+padding: 5px 6px;
+margin: 0; 
+white-space: nowrap; 
+overflow: hidden; 
+cursor:pointer;
+}
+.autocomplete-selected {
+  background-color: #3875d7;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3875d7', endColorstr='#2a62bc', GradientType=0 );  
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
+  background-image: -webkit-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: -moz-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: -o-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: -ms-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background-image: linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  color: #fff;
+}
+.autocomplete-suggestions strong { font-weight: normal;}
